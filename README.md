@@ -69,7 +69,7 @@ patient_flow_analysis/
 ├── requirements.txt
 ├── LICENSE
 └── .gitignore
-
+```
 ---
 
 ## 🧮 Методы и ключевые метрики
