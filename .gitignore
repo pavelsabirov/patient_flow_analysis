@@ -1,0 +1,56 @@
+# --- Общие системные и IDE файлы ---
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.bak
+*.swp
+.vscode/
+.idea/
+
+# --- Виртуальные окружения ---
+venv/
+.env/
+env/
+.venv/
+
+# --- Jupyter служебные файлы ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.nbconvert.ipynb
+*.ipynb_meta.json
+
+# --- Данные ---
+data/private/
+data/raw/           
+anonymizer/
+!data/processed/
+
+# --- Отчёты ---
+!reports/main/Report.pdf
+reports/main/Report.docx
+!reports/visualisation/
+
+# --- Графические файлы ---
+*.png
+!reports/visualisation/*.png
+
+# --- Python build/packaging ---
+build/
+dist/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# --- Исключения (оставляем нужное) ---
+!README.md
+!requirements.txt
+!styles/
+!notebooks/
+!reports/
+!data/
